@@ -1,8 +1,77 @@
-.videoCollection {
+.movieBrowser {
   display: flex;
   flex-direction: column;
   place-items: center;
   gap: 1rem;
+}
+.movieBrowser .videoMovieBrowser {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+}
+.movieBrowser img {
+  width: 90vw;
+}
+.movieBrowser span {
+  width: 91%;
+}
+
+.projectPlanner {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+}
+.projectPlanner .videoProjectPlanner {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+}
+.projectPlanner img {
+  width: 90vw;
+}
+.projectPlanner span {
+  width: 91%;
+}
+
+.darkKitchen {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+}
+.darkKitchen .videoDarkKitchen {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+}
+.darkKitchen img {
+  width: 90vw;
+}
+.darkKitchen span {
+  width: 91%;
+}
+
+.collection {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+}
+.collection .videoCollection {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+}
+.collection img {
+  width: 90vw;
+}
+.collection span {
+  width: 91%;
 }
 
 .footer {

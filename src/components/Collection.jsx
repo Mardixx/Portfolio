@@ -7,6 +7,9 @@ export const Collection = () => {
                 and diverse JavaScript things to add some functionalities to our website.</span>
             <h3>Some screenshots and video: </h3>
 
+            <img src="collectionPic1.png" alt="Collecion png" />
+            <img src="collectionPic2.png" alt="Collecion png" />
+
             <div className="videoCollection">
                 <video width={"300vw"} controls>
                     <source src="collectionProjectVideo.webm" type="video/webm"/>
@@ -14,6 +17,8 @@ export const Collection = () => {
                 <span>In this short video, you can see how to delete a card from the collection (the can marked '3')
                     , access the MyAnimeList page and add a new card to the collection.</span>
             </div>
+            <a href="https://mardixx.github.io/Collection-project/">Deployed project if you want to try for yourself.</a>
+            
         </div>
     )
 }
