@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/Collection' element={<Collection />} />
+        <Route path='/CollectionProject' element={<Collection />} />
         <Route path='/MovieBrowser' element={<MovieBrowser />} />
         <Route path='/DarkKitchen' element={<DarkKitchen />} />
         <Route path='/ProjectPlanner' element={<ProjectPlanner />} />

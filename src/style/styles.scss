@@ -1,7 +1,20 @@
+.videoCollection {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 1rem;
+}
+
 .footer {
-    position: absolute;
-    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
     width: 100%;
+    border-top: 1px solid grey;
+    padding-top: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+    
     a {
         display: flex;
         flex-direction: row;
@@ -21,22 +34,32 @@
 .aboutMe {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 
     img {
-        width: 5rem;
+        width: 10rem;
         border-radius: 10px;
+    }
+
+    span {
+        width: 90%;
+        background-color: #5c5959;
+        border-radius: 15px;
+        padding: 1rem;
     }
 
 }
 
 .header {
     background-color: #4a4646;
+    box-shadow: 0px 5px 1.5rem black;
+    border-radius: 0px 0px 1rem 1rem;
 
     ul {
         display: flex;
         margin: auto;
         margin-top: 0;
-        margin-bottom: 2rem;
         padding-left: 0;
         flex-direction: row;
         justify-content: space-around;
@@ -57,6 +80,7 @@
 }
 
 .presentation {
+    margin-top: 2rem;
 
     h1 {
         font-size: 25px;
@@ -77,8 +101,11 @@
     margin: auto;
     flex-direction: row;
     
-    img {
-        width: 30px;
+    a {
+        img {
+            width: 20px;
+        }
+
     }
 
 }
@@ -97,7 +124,7 @@
     .collectionProject {
         
         width: 100%;
-        border: 3px solid black;
+        border: 5px solid black;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -126,7 +153,7 @@
 
     .movieBrowser {
         width: 100%;
-        border: 3px solid black;
+        border: 5px solid black;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -153,7 +180,7 @@
 
     .darkKitchen {
         width: 100%;
-        border: 3px solid black;
+        border: 5px solid black;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -181,7 +208,7 @@
     }
     .projectPlanner {
         width: 100%;
-        border: 3px solid black;
+        border: 5px solid black;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -206,5 +233,49 @@
 
         }
 
+    }
+}
+@media only screen and (min-width: 768px) {
+    .languages {
+        display: flex;
+        overflow: auto;
+        width: 80vw;
+        gap: 1rem;
+        justify-content: center;
+        margin: auto;
+        flex-direction: row;
+        
+        a {
+            img {
+                width: 50px;
+            }
+    
+        }
+    
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10rem;
+        width: 100%;
+        border-top: 1px solid grey;
+        padding-top: 1rem;
+        margin: 1rem 0rem 1rem 0rem;
+        
+        a {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 5px;
+            color: grey;
+            font-size: 20px;
+    
+            img {
+                width: 20px;
+            }
+    
+        }
+    
     }
 }

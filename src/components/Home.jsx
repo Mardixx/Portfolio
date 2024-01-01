@@ -13,20 +13,21 @@ export const Home = () => {
             <h3>Languages I learned and use almost daily: </h3>
 
             <div className="languages">
-                <img className='html' src='html5.svg' alt='html5 svg'/>
-                <img className='css' src='css3-alt.svg' alt='css3 svg' />
-                <img className='js' src='js.svg' alt='JavaScript svg'/>
-                <img className='sass' src='sass.svg' alt='sass svg'/>
-                <img className='react' src='react.svg' alt='react svg'/>
-                <img className='vite' src='vite.svg' alt='vite svg'/>
-                <img className='php' src='php.svg' alt='php svg'/>
-                <img className='typescript' src='typescript.png' alt='typescript png'/>
+                <a href="https://en.wikipedia.org/wiki/HTML5"><img className='html' src='html5.svg' alt='html5 svg'/></a>
+                <a href="https://en.wikipedia.org/wiki/CSS"><img className='css' src='css3-alt.svg' alt='css3 svg' /></a>
+                <a href="https://en.wikipedia.org/wiki/JavaScript"><img className='js' src='js.svg' alt='JavaScript svg'/></a>
+                <a href="https://sass-lang.com/"><img className='sass' src='sass.svg' alt='sass svg'/></a>
+                <a href="https://react.dev/"><img className='react' src='react.svg' alt='react svg'/></a>
+                <a href="https://vitejs.dev/"><img className='vite' src='vite.svg' alt='vite svg'/></a>
+                <a href="https://www.php.net/"><img className='php' src='php.svg' alt='php svg'/></a>
+                <a href="https://www.typescriptlang.org/"><img className='typescript' src='typescript.png' alt='typescript png'/></a>
+                
             </div>
 
             <h3>Some of my projects: </h3>
 
             <div className="projects">
-                <Link to='/Collection'>
+                <Link to='/CollectionProject'>
                     <div className="collectionProject">
                         <img src="collectionProject.png" alt="Collection Project png" />
                         <span className='littleDetail'>This project was one of the first if not the first true solo project. I used HTML and CSS as well as JavaScript to make it.</span>

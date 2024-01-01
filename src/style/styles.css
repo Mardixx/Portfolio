@@ -1,7 +1,19 @@
+.videoCollection {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+}
+
 .footer {
-  position: absolute;
-  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
   width: 100%;
+  border-top: 1px solid grey;
+  padding-top: 1rem;
+  margin: 1rem 0rem 1rem 0rem;
 }
 .footer a {
   display: flex;
@@ -18,20 +30,29 @@
 .aboutMe {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 .aboutMe img {
-  width: 5rem;
+  width: 10rem;
   border-radius: 10px;
+}
+.aboutMe span {
+  width: 90%;
+  background-color: #5c5959;
+  border-radius: 15px;
+  padding: 1rem;
 }
 
 .header {
   background-color: #4a4646;
+  box-shadow: 0px 5px 1.5rem black;
+  border-radius: 0px 0px 1rem 1rem;
 }
 .header ul {
   display: flex;
   margin: auto;
   margin-top: 0;
-  margin-bottom: 2rem;
   padding-left: 0;
   flex-direction: row;
   justify-content: space-around;
@@ -47,6 +68,9 @@
   gap: 1rem;
 }
 
+.presentation {
+  margin-top: 2rem;
+}
 .presentation h1 {
   font-size: 25px;
 }
@@ -63,8 +87,8 @@
   margin: auto;
   flex-direction: row;
 }
-.languages img {
-  width: 30px;
+.languages a img {
+  width: 20px;
 }
 
 .projects {
@@ -79,7 +103,7 @@
 }
 .projects .collectionProject {
   width: 100%;
-  border: 3px solid black;
+  border: 5px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,7 +123,7 @@
 }
 .projects .movieBrowser {
   width: 100%;
-  border: 3px solid black;
+  border: 5px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,7 +143,7 @@
 }
 .projects .darkKitchen {
   width: 100%;
-  border: 3px solid black;
+  border: 5px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,7 +163,7 @@
 }
 .projects .projectPlanner {
   width: 100%;
-  border: 3px solid black;
+  border: 5px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,4 +180,40 @@
 }
 .projects .projectPlanner .languagesUsed img {
   width: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+  .languages {
+    display: flex;
+    overflow: auto;
+    width: 80vw;
+    gap: 1rem;
+    justify-content: center;
+    margin: auto;
+    flex-direction: row;
+  }
+  .languages a img {
+    width: 50px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+    width: 100%;
+    border-top: 1px solid grey;
+    padding-top: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  .footer a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: grey;
+    font-size: 20px;
+  }
+  .footer a img {
+    width: 20px;
+  }
 }/*# sourceMappingURL=styles.css.map */
