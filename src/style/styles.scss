@@ -1,0 +1,210 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        color: grey;
+        font-size: 10px;
+
+        img {
+            width: 10px;
+        }
+
+    }
+
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 5rem;
+        border-radius: 10px;
+    }
+
+}
+
+.header {
+    background-color: #4a4646;
+
+    ul {
+        display: flex;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        padding-left: 0;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 95%;
+
+        li {
+            list-style-type: none;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+
+    }
+
+}
+
+.presentation {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+}
+
+.languages {
+    display: flex;
+    overflow: auto;
+    width: 80vw;
+    gap: 1rem;
+    justify-content: center;
+    margin: auto;
+    flex-direction: row;
+    
+    img {
+        width: 30px;
+    }
+
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    a {
+        width: 80%;
+    }
+
+    .collectionProject {
+        
+        width: 100%;
+        border: 3px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: rgb(73, 69, 69);
+
+        img {
+            width: 100%;
+        }
+
+        .littleDetail {
+            display: block;
+            width: 90%;
+        }
+
+        .languagesUsed {
+
+            img {
+                width: 20px;
+            }
+            
+        }
+
+    }
+
+    .movieBrowser {
+        width: 100%;
+        border: 3px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: rgb(73, 69, 69);
+
+        img {
+            width: 100%;
+        }
+
+        .littleDetail {
+            display: block;
+            width: 90%;
+        }
+
+        .languagesUsed {
+            img {
+                width: 25px;
+            }
+        }
+
+    }
+
+    .darkKitchen {
+        width: 100%;
+        border: 3px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: rgb(73, 69, 69);
+
+        img {
+            width: 100%;
+        }
+
+        .littleDetail {
+            display: block;
+            width: 90%;
+        }
+
+        .languagesUsed {
+
+            img {
+                width: 25px;
+            }
+
+        }
+
+    }
+    .projectPlanner {
+        width: 100%;
+        border: 3px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: rgb(73, 69, 69);
+
+        img {
+            width: 100%;
+        }
+
+        .littleDetail {
+            display: block;
+            width: 90%;
+        }
+
+        .languagesUsed {
+
+            img {
+                width: 25px;
+            }
+
+        }
+
+    }
+}
