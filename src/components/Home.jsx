@@ -13,14 +13,14 @@ export const Home = () => {
             <h3>Languages I learned and use almost daily: </h3>
 
             <div className="languages">
-                <a href="https://en.wikipedia.org/wiki/HTML5"><img className='html' src='html5.svg' alt='html5 svg'/></a>
-                <a href="https://en.wikipedia.org/wiki/CSS"><img className='css' src='css3-alt.svg' alt='css3 svg' /></a>
-                <a href="https://en.wikipedia.org/wiki/JavaScript"><img className='js' src='js.svg' alt='JavaScript svg'/></a>
-                <a href="https://sass-lang.com/"><img className='sass' src='sass.svg' alt='sass svg'/></a>
-                <a href="https://react.dev/"><img className='react' src='react.svg' alt='react svg'/></a>
-                <a href="https://vitejs.dev/"><img className='vite' src='vite.svg' alt='vite svg'/></a>
-                <a href="https://www.php.net/"><img className='php' src='php.svg' alt='php svg'/></a>
-                <a href="https://www.typescriptlang.org/"><img className='typescript' src='typescript.png' alt='typescript png'/></a>
+                <a href="https://en.wikipedia.org/wiki/HTML5" target='blank'><img className='html' src='html5.svg' alt='html5 svg'/></a>
+                <a href="https://en.wikipedia.org/wiki/CSS" target='blank'><img className='css' src='css3-alt.svg' alt='css3 svg' /></a>
+                <a href="https://en.wikipedia.org/wiki/JavaScript" target='blank'><img className='js' src='js.svg' alt='JavaScript svg'/></a>
+                <a href="https://sass-lang.com/" target='blank'><img className='sass' src='sass.svg' alt='sass svg'/></a>
+                <a href="https://react.dev/" target='blank'><img className='react' src='react.svg' alt='react svg'/></a>
+                <a href="https://vitejs.dev/" target='blank'><img className='vite' src='vite.svg' alt='vite svg'/></a>
+                <a href="https://www.php.net/" target='blank'><img className='php' src='php.svg' alt='php svg'/></a>
+                <a href="https://www.typescriptlang.org/" target='blank'><img className='typescript' src='typescript.png' alt='typescript png'/></a>
                 
             </div>
 

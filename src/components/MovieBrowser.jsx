@@ -16,7 +16,7 @@ export const MovieBrowser = () => {
                 </video>
                 <span>In this short video, you can see how you can navigate between multiple pages, visit movies and the similar movies to the one visited.</span>
             </div>
-            <a href="https://movie-browser-taupe.vercel.app/">Deployed project if you want to try for yourself.</a>
+            <a href="https://movie-browser-taupe.vercel.app/" target='blank'>Deployed project if you want to try for yourself.</a>
         </div>
     )
 }

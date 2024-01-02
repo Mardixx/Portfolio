@@ -17,7 +17,7 @@ export const Collection = () => {
                 <span>In this short video, you can see how to delete a card from the collection (the can marked '3')
                     , access the MyAnimeList page and add a new card to the collection.</span>
             </div>
-            <a href="https://mardixx.github.io/Collection-project/">Deployed project if you want to try for yourself.</a>
+            <a href="https://mardixx.github.io/Collection-project/" target='blank'>Deployed project if you want to try for yourself.</a>
             
         </div>
     )

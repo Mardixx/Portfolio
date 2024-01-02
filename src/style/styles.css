@@ -9,6 +9,7 @@
   flex-direction: column;
   place-items: center;
   gap: 1rem;
+  width: 100%;
 }
 .movieBrowser video {
   width: 90%;
@@ -31,6 +32,7 @@
   flex-direction: column;
   place-items: center;
   gap: 1rem;
+  width: 100%;
 }
 .projectPlanner video {
   width: 90%;
@@ -53,6 +55,7 @@
   flex-direction: column;
   place-items: center;
   gap: 1rem;
+  width: 100%;
 }
 .darkKitchen video {
   width: 90%;
@@ -75,6 +78,7 @@
   flex-direction: column;
   place-items: center;
   gap: 1rem;
+  width: 100%;
 }
 .collection video {
   width: 90%;
@@ -296,5 +300,22 @@
   }
   .footer a img {
     width: 20px;
+  }
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .aboutMe img {
+    width: 10rem;
+    border-radius: 10px;
+  }
+  .aboutMe span {
+    width: 90%;
+    background-color: #5c5959;
+    border-radius: 15px;
+    padding: 1rem;
+    font-size: 20px;
   }
 }/*# sourceMappingURL=styles.css.map */
