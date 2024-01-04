@@ -339,13 +339,104 @@
     }
 }
 @media only screen and (min-width: 768px) {
+    .collection {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 1rem;
+
+        .videoCollection {
+            display: flex;
+            flex-direction: column;
+            place-items: center;
+            gap: 1rem;
+            width: 100%;
+        }
+
+        video {
+            width: 90%;
+        }
+        img {
+            width: 90%;
+        }
+    }
+    .movieBrowser {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 1rem;
+    
+        .videoMovieBrowser {
+            display: flex;
+            flex-direction: column;
+            place-items: center;
+            gap: 1rem;
+            width: 100%;
+        }
+    
+        video {
+            width: 90%;
+        }
+    
+    
+        img {
+            width: 90%;
+        }
+    }
+    .darkKitchen {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 1rem;
+    
+        .videoDarkKitchen {
+            display: flex;
+            flex-direction: column;
+            place-items: center;
+            gap: 1rem;
+            width: 100%;
+        }
+    
+        video {
+            width: 90%;
+        }
+    
+    
+        img {
+            width: 90%;
+        }
+    }
+    .projectPlanner {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 1rem;
+    
+        .videoProjectPlanner {
+            display: flex;
+            flex-direction: column;
+            place-items: center;
+            gap: 1rem;
+            width: 100%;
+        }
+    
+        video {
+            width: 90%;
+        }
+    
+    
+        img {
+            width: 90%;
+        }
+    }
     .languages {
         display: flex;
         overflow: auto;
-        width: 80vw;
-        gap: 1rem;
+        margin: 0 auto;
+        width: 100%;
+        gap: 2rem;
         justify-content: center;
-        margin: auto;
+        align-items: center;
         flex-direction: row;
         
         a {

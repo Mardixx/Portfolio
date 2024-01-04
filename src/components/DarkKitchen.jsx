@@ -13,9 +13,9 @@ export const DarkKitchen = () => {
 
             <div className="videoDarkKitchen">
                 <video width={"300vw"} controls>
-                    <source src="toBeAdded.webm" type="video/webm"/>
+                    <source src="public/DarkKitchenVid.webm" type="video/webm"/>
                 </video>
-                <span>In this short video, you can see how you can navigate between multiple pages, visit movies and the similar movies to the one visited.</span>
+                <span>In this short video, you can see how to add items inside of a basket and change to dark mode.</span>
             </div>
             <a href="https://mardixx.github.io/Dark-Kitchen/" target='blank'>Deployed project if you want to try for yourself.</a>
         </div>
