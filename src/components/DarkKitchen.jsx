@@ -13,7 +13,7 @@ export const DarkKitchen = () => {
 
             <div className="videoDarkKitchen">
                 <video width={"300vw"} controls>
-                    <source src="public/DarkKitchenVid.webm" type="video/webm"/>
+                    <source src="darkKitchenVid.webm" type="video/webm"/>
                 </video>
                 <span>In this short video, you can see how to add items inside of a basket and change to dark mode.</span>
             </div>

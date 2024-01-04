@@ -12,7 +12,7 @@ export const MovieBrowser = () => {
 
             <div className="videoMovieBrowser">
                 <video width={"300vw"} controls>
-                    <source src="public/MovieBrowserVid.webm" type="video/webm"/>
+                    <source src="movieBrowserVid.webm" type="video/webm"/>
                 </video>
                 <span>In this short video, you can see how you can navigate between multiple pages, visit movies and the similar movies to the one visited.</span>
             </div>

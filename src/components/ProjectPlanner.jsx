@@ -12,7 +12,8 @@ export const ProjectPlanner = () => {
 
             <div className="videoProjectPlanner">
                 <video width={"300vw"} controls>
-                    <source src="public/ProjectPlannerVid.webm" type="video/webm"/>
+                    <source src="p
+                    rojectPlannerVid.webm" type="video/webm"/>
                 </video>
                 <span>In this short video, you can see how to add a project, tasks and how much time you have left.</span>
             </div>
