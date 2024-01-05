@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export const ProjectPlanner = () => {
     return (
         <div className="projectPlanner">
@@ -7,8 +9,8 @@ export const ProjectPlanner = () => {
             <span>In this project, we had to create a project planner in which you would see tasks to do and done and the time remaining.</span>
             <h3>Some screenshots and video: </h3>
 
-            <img src="projectPlannerPic1.png" alt="Project Planner png" />
-            <img src="projectPlannerPic2.png" alt="Project Planner png" />
+            <motion.div whileHover={{ scale : 1.1 }}><img src="projectPlannerPic1.png" alt="Project Planner png" /></motion.div>
+            <motion.div whileHover={{ scale : 1.1 }}><img src="projectPlannerPic2.png" alt="Project Planner png" /></motion.div>
 
             <div className="videoProjectPlanner">
                 <video width={"300vw"} controls>

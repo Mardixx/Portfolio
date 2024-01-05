@@ -1,0 +1,39 @@
+@mixin languagesUsed{
+    .languagesUsed {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        gap: 7px;
+
+        img {
+            width: 20px;
+        }
+        
+    }
+}
+@mixin project{
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 10px 10px 10px 1px #0e1734;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 1rem;
+    background-color: rgb(73, 69, 69);
+
+    img {
+        border-radius: 5px 5px 0px 0px;
+        width: 100%;
+    }
+
+    .littleDetail {
+        display: block;
+        width: 90%;
+    }
+
+    @include languagesUsed;
+
+}

@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export const MovieBrowser = () => {
     return (
         <div className="movieBrowser">
@@ -7,8 +9,8 @@ export const MovieBrowser = () => {
                 "The Movie Database" or "TMDB" to access movie informations.</span>
             <h3>Some screenshots and video: </h3>
 
-            <img src="movieBrowserPic2.png" alt="Movie Browser png" />
-            <img src="movieBrowserPic1.png" alt="Movie Browser png" />
+            <motion.div whileHover={{ scale : 1.1 }}><img src="movieBrowserPic2.png" alt="Movie Browser png" /></motion.div>
+            <motion.div whileHover={{ scale : 1.1 }}><img src="movieBrowserPic1.png" alt="Movie Browser png" /></motion.div>
 
             <div className="videoMovieBrowser">
                 <video width={"300vw"} controls>

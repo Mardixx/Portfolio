@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export const DarkKitchen = () => {
     return (
         <div className="darkKitchen">
@@ -8,8 +10,8 @@ export const DarkKitchen = () => {
             <span>In this project, we had to create a order site for a restaurant.</span>
             <h3>Some screenshots and video: </h3>
 
-            <img src="darkKitchenPic1.png" alt="Dark Kitchen png" />
-            <img src="darkKitchenPic2.png" alt="Dark Kitchen png" />
+            <motion.div whileHover={{ scale : 1.1 }}><img src="darkKitchenPic1.png" alt="Dark Kitchen png" /></motion.div>
+            <motion.div whileHover={{ scale : 1.1 }}><img src="darkKitchenPic2.png" alt="Dark Kitchen png" /></motion.div>
 
             <div className="videoDarkKitchen">
                 <video width={"300vw"} controls>

@@ -1,3 +1,6 @@
+import { motion } from "framer-motion";
+import ScrollToTop from "react-scroll-to-top";
+
 export const Collection = () => {
     return (
         <div className="collection">
@@ -7,8 +10,8 @@ export const Collection = () => {
                 and diverse JavaScript things to add some functionalities to our website.</span>
             <h3>Some screenshots and video: </h3>
 
-            <img src="collectionPic1.png" alt="Collecion png" />
-            <img src="collectionPic2.png" alt="Collecion png" />
+            <motion.div whileHover={{ scale : 1.1 }}><img src="collectionPic1.png" alt="Collecion png" /></motion.div>
+            <motion.div whileHover={{ scale : 1.1 }}><img src="collectionPic2.png" alt="Collecion png" /></motion.div>
 
             <div className="videoCollection">
                 <video width={"300vw"} controls>
@@ -18,6 +21,7 @@ export const Collection = () => {
                     , access the MyAnimeList page and add a new card to the collection.</span>
             </div>
             <a href="https://mardixx.github.io/Collection-project/" target='blank'>Deployed project if you want to try for yourself.</a>
+            <ScrollToTop />
             
         </div>
     )
