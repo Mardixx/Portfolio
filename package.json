@@ -12,7 +12,8 @@
   "dependencies": {
     "framer-motion": "^10.17.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "scroll-to": "^0.0.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

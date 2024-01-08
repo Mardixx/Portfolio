@@ -2,8 +2,16 @@ import { Link } from 'react-router-dom'
 import '../style/styles.css'
 import { motion } from "framer-motion";
 import { FramerMagnetic } from './FramerMagnetic';
+import { useEffect } from 'react';
 
 export const Home = () => {
+    function ScrollToTop() {
+        useEffect(() => {
+          window.scrollTo(0, 0);
+        }, []);
+      
+        return null;
+      }
     return (
         <motion.div initial={{ opacity : 0 }} whileInView={{ opacity : 1 }} transition={{ duration : 2 }} className="home">
 
@@ -53,7 +61,7 @@ export const Home = () => {
 
             <div className="projects">
                 
-                <Link to='/CollectionProject' className="collectionProjectLink">
+                <Link to='/CollectionProject' className="collectionProjectLink" onClick={ScrollToTop}>
                     <motion.div 
                         initial={{ x : 200, opacity : 0 }} 
                         whileInView={{ x : 0, opacity : 1 }} 
@@ -72,7 +80,7 @@ export const Home = () => {
                         </div>
                     </motion.div>
                 </Link>
-                <Link to='/MovieBrowser' className="movieBrowserLink">
+                <Link to='/MovieBrowser' className="movieBrowserLink" onClick={ScrollToTop}>
                     <motion.div initial={{ x : -200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="movieBrowser">
                         <img src="movieBrowser.png" alt="Movie Browser png" />
                         <span className='littleDetail'>This project was one of the first solo project we had to make using React. In this one, I used React and Vite.</span>
@@ -86,7 +94,7 @@ export const Home = () => {
                         </div>
                     </motion.div>
                 </Link>
-                <Link to='/DarkKitchen' className="darkKitchenLink">
+                <Link to='/DarkKitchen' className="darkKitchenLink" onClick={ScrollToTop}>
                     <motion.div initial={{ x : 200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="darkKitchen">
                         <img src="darkKitchen.png" alt="Dark Kitchen png" />
                         <span className='littleDetail'>In this project, we had to use JavaScript to be able to do various things such as a localStorage or a Dark Mode.</span>
@@ -100,7 +108,7 @@ export const Home = () => {
                         </div>
                     </motion.div>
                 </Link>
-                <Link to='/ProjectPlanner' className="projectPlannerLink">
+                <Link to='/ProjectPlanner' className="projectPlannerLink" onClick={ScrollToTop}>
                     <motion.div initial={{ x : -200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="projectPlanner">
                         <img src="projectPlanner.png" alt="Project Planner png" />
                         <span className='littleDetail'>In this project, we had to create a project planner in which you could see the time remaining and the tasks in order of importance.</span>

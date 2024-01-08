@@ -9,8 +9,8 @@ export const Collection = () => {
                 and diverse JavaScript things to add some functionalities to our website.</span>
             <h3>Some screenshots and video: </h3>
 
-            <motion.div whileHover={{ scale : 1.1 }}><img src="collectionPic1.png" alt="Collecion png" /></motion.div>
-            <motion.div whileHover={{ scale : 1.1 }}><img src="collectionPic2.png" alt="Collecion png" /></motion.div>
+            <motion.div whileHover={{ scale : 1.05 }}><img src="collectionPic1.png" alt="Collecion png" /></motion.div>
+            <motion.div whileHover={{ scale : 1.05 }}><img src="collectionPic2.png" alt="Collecion png" /></motion.div>
 
             <div className="videoDiv">
                 <video width={"300vw"} controls>

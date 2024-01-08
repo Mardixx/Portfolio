@@ -8,7 +8,7 @@ import { Header } from './components/Header'
 import { AboutMe } from './components/AboutMe'
 import { Footer } from './components/Footer'
 import { Route, Routes } from 'react-router-dom'
-import { Search } from './components/Search'
+import { Projects } from './components/Projects'
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Route path='/MovieBrowser' element={<MovieBrowser />} />
         <Route path='/DarkKitchen' element={<DarkKitchen />} />
         <Route path='/ProjectPlanner' element={<ProjectPlanner />} />
-        <Route path='/Search' element={<Search />} />
+        <Route path='/Projects' element={<Projects />} />
         <Route path='/AboutMe' element={<AboutMe />} />
       </Routes> 
       <Footer />

@@ -9,8 +9,8 @@ export const MovieBrowser = () => {
                 "The Movie Database" or "TMDB" to access movie informations.</span>
             <h3>Some screenshots and video: </h3>
 
-            <motion.div whileHover={{ scale : 1.1 }}><img src="movieBrowserPic2.png" alt="Movie Browser png" /></motion.div>
-            <motion.div whileHover={{ scale : 1.1 }}><img src="movieBrowserPic1.png" alt="Movie Browser png" /></motion.div>
+            <motion.div whileHover={{ scale : 1.05 }}><img src="movieBrowserPic2.png" alt="Movie Browser png" /></motion.div>
+            <motion.div whileHover={{ scale : 1.05 }}><img src="movieBrowserPic1.png" alt="Movie Browser png" /></motion.div>
 
             <div className="videoDiv">
                 <video width={"300vw"} controls>
