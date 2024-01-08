@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import ScrollToTop from "react-scroll-to-top";
 
 export const Collection = () => {
     return (
@@ -21,8 +20,6 @@ export const Collection = () => {
                     , access the MyAnimeList page and add a new card to the collection.</span>
             </div>
             <a href="https://mardixx.github.io/Collection-project/" target='blank'>Deployed project if you want to try for yourself.</a>
-            <ScrollToTop />
-            
         </div>
     )
 }

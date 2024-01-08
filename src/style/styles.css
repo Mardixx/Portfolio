@@ -257,7 +257,47 @@ h1 {
   gap: 7px;
 }
 .projects .collectionProjectLink .languagesUsed img, .projects .movieBrowserLink .languagesUsed img, .projects .darkKitchenLink .languagesUsed img, .projects .projectPlannerLink .languagesUsed img {
-  width: 20px;
+  width: 30px;
+}
+
+.collection, .movieBrowser, .darkKitchen, .projectPlanner {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+}
+.collection span, .movieBrowser span, .darkKitchen span, .projectPlanner span {
+  font-size: 15px;
+}
+.collection h1, .movieBrowser h1, .darkKitchen h1, .projectPlanner h1 {
+  font-size: 25px;
+}
+.collection video, .movieBrowser video, .darkKitchen video, .projectPlanner video {
+  width: 90%;
+}
+.collection img, .movieBrowser img, .darkKitchen img, .projectPlanner img {
+  width: 90%;
+}
+.collection a, .movieBrowser a, .darkKitchen a, .projectPlanner a {
+  font-size: 10px;
+}
+.collection .videoDiv, .movieBrowser .videoDiv, .darkKitchen .videoDiv, .projectPlanner .videoDiv {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 3rem;
+  width: 100%;
+}
+
+.searched {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.searched select {
+  margin: 2rem;
+  width: 50%;
 }
 
 @media only screen and (min-width: 768px) {
