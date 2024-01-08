@@ -1,12 +1,33 @@
 *, body {
   box-sizing: border-box;
-  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  margin: 0;
 }
 
 .App {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  place-items: center;
+}
+.App h3 {
+  width: 80%;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 25px;
+  width: 90%;
+  overflow: hidden;
 }
 
 .movieBrowser {
@@ -142,10 +163,16 @@
 }
 
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #4a4646;
   width: 90%;
   box-shadow: 0px 5px 1.5rem black;
   border-radius: 0px 0px 1rem 1rem;
+}
+.header img {
+  width: 15px;
 }
 .header ul {
   display: flex;
@@ -163,30 +190,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 15px;
   gap: 1rem;
 }
 
 .presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-top: 2rem;
 }
-.presentation h1 {
-  font-size: 25px;
-}
 .presentation span {
+  width: 90%;
   font-size: 15px;
 }
 
 .languages {
   display: flex;
-  overflow-x: auto;
-  width: 80%;
-  gap: 1rem;
-  justify-content: center;
-  margin: auto;
   flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  overflow-x: scroll;
+  width: 80%;
 }
-.languages a img {
-  width: 7vw;
+.languages div a {
+  width: 10vw;
+}
+.languages div a img {
+  width: 10vw;
 }
 
 .projects {
@@ -229,95 +261,59 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .collection {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    gap: 5rem;
+  .home h1 {
+    font-size: 50px;
   }
-  .collection .videoCollection {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    gap: 1rem;
-    width: 100%;
+  .home span {
+    font-size: 20px;
   }
-  .collection video {
-    width: 90%;
+  .home h3 {
+    font-size: 35px;
   }
-  .collection img {
-    width: 90%;
-  }
-  .movieBrowser {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    gap: 5rem;
-  }
-  .movieBrowser .videoMovieBrowser {
+  .collection, .movieBrowser, .darkKitchen, .projectPlanner {
     display: flex;
     flex-direction: column;
     place-items: center;
     gap: 1rem;
+  }
+  .collection span, .movieBrowser span, .darkKitchen span, .projectPlanner span {
+    font-size: 20px;
+  }
+  .collection h1, .movieBrowser h1, .darkKitchen h1, .projectPlanner h1 {
+    font-size: 50px;
+  }
+  .collection h3, .movieBrowser h3, .darkKitchen h3, .projectPlanner h3 {
+    font-size: 35px;
+  }
+  .collection video, .movieBrowser video, .darkKitchen video, .projectPlanner video {
+    width: 90%;
+  }
+  .collection img, .movieBrowser img, .darkKitchen img, .projectPlanner img {
+    width: 90%;
+  }
+  .collection a, .movieBrowser a, .darkKitchen a, .projectPlanner a {
+    font-size: 20px;
+  }
+  .collection .videoDiv, .movieBrowser .videoDiv, .darkKitchen .videoDiv, .projectPlanner .videoDiv {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 3rem;
     width: 100%;
-  }
-  .movieBrowser video {
-    width: 90%;
-  }
-  .movieBrowser img {
-    width: 90%;
-  }
-  .darkKitchen {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    gap: 5rem;
-  }
-  .darkKitchen .videoDarkKitchen {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    gap: 1rem;
-    width: 100%;
-  }
-  .darkKitchen video {
-    width: 90%;
-  }
-  .darkKitchen img {
-    width: 90%;
-  }
-  .projectPlanner {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    gap: 5rem;
-  }
-  .projectPlanner .videoProjectPlanner {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    gap: 1rem;
-    width: 100%;
-  }
-  .projectPlanner video {
-    width: 90%;
-  }
-  .projectPlanner img {
-    width: 90%;
   }
   .languages {
     display: flex;
-    overflow: auto;
+    overflow: visible;
     margin: 0 auto;
-    width: 100%;
-    padding: 5rem;
+    width: 80%;
+    padding: 2rem;
     gap: 2rem;
     justify-content: center;
     align-items: center;
     flex-direction: row;
   }
-  .languages a img {
-    width: 50px;
+  .languages div a img {
+    width: 5vw;
   }
   .footer {
     display: flex;
@@ -347,14 +343,26 @@
     gap: 2rem;
   }
   .aboutMe img {
-    width: 10rem;
+    width: 15rem;
     border-radius: 10px;
   }
   .aboutMe span {
     width: 90%;
-    background-color: #5c5959;
     border-radius: 15px;
     padding: 1rem;
+    font-size: 20px;
+  }
+  .aboutMe h1 {
+    font-size: 50px;
+  }
+  .aboutMe .facePic {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .header ul li {
+    font-size: 20px;
+  }
+  .header ul img {
     font-size: 20px;
   }
 }/*# sourceMappingURL=styles.css.map */

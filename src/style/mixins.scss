@@ -37,3 +37,38 @@
     @include languagesUsed;
 
 }
+@mixin video{
+    .videoDiv{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 3rem;
+        width: 100%;
+    }
+}
+@mixin fullView{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 1rem;
+
+    span {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    video {
+        width: 90%;
+    }
+    img {
+        width: 90%;
+    }
+    a {
+        font-size: 20px; 
+    }
+    @include video;
+}

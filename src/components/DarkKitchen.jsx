@@ -13,7 +13,7 @@ export const DarkKitchen = () => {
             <motion.div whileHover={{ scale : 1.1 }}><img src="darkKitchenPic1.png" alt="Dark Kitchen png" /></motion.div>
             <motion.div whileHover={{ scale : 1.1 }}><img src="darkKitchenPic2.png" alt="Dark Kitchen png" /></motion.div>
 
-            <div className="videoDarkKitchen">
+            <div className="videoDiv">
                 <video width={"300vw"} controls>
                     <source src="darkKitchenVid.webm" type="video/webm"/>
                 </video>

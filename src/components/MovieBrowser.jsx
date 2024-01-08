@@ -12,7 +12,7 @@ export const MovieBrowser = () => {
             <motion.div whileHover={{ scale : 1.1 }}><img src="movieBrowserPic2.png" alt="Movie Browser png" /></motion.div>
             <motion.div whileHover={{ scale : 1.1 }}><img src="movieBrowserPic1.png" alt="Movie Browser png" /></motion.div>
 
-            <div className="videoMovieBrowser">
+            <div className="videoDiv">
                 <video width={"300vw"} controls>
                     <source src="movieBrowserVid.webm" type="video/webm"/>
                 </video>

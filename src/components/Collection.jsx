@@ -13,7 +13,7 @@ export const Collection = () => {
             <motion.div whileHover={{ scale : 1.1 }}><img src="collectionPic1.png" alt="Collecion png" /></motion.div>
             <motion.div whileHover={{ scale : 1.1 }}><img src="collectionPic2.png" alt="Collecion png" /></motion.div>
 
-            <div className="videoCollection">
+            <div className="videoDiv">
                 <video width={"300vw"} controls>
                     <source src="collectionProjectVideo.webm" type="video/webm"/>
                 </video>
