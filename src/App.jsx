@@ -9,11 +9,13 @@ import { AboutMe } from './components/AboutMe'
 import { Footer } from './components/Footer'
 import { Route, Routes } from 'react-router-dom'
 import { Projects } from './components/Projects'
+import { ScrollToTop } from './components/ScrollToTop'
 
 function App() {
   return (
     <div className='App'>
       <Header />
+      <ScrollToTop />
        <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/CollectionProject' element={<Collection />} />

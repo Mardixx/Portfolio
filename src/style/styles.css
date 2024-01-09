@@ -192,13 +192,25 @@ h1 {
 }
 .header ul li {
   list-style-type: none;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 15px;
   gap: 5px;
+}
+.header ul .homeBorder {
+  border-radius: 15px;
+  border: 3px solid #4a4646;
+}
+.header ul .projectBorder {
+  border-radius: 15px;
+  border: 3px solid #4a4646;
+}
+.header ul .aboutBorder {
+  border-radius: 15px;
+  border: 3px solid #4a4646;
 }
 
 .presentation {
@@ -241,8 +253,9 @@ h1 {
   width: 80%;
   box-shadow: 10px 10px 10px 1px #0e1734;
   display: flex;
-  place-items: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
   gap: 1rem;
   background-color: rgb(73, 69, 69);
@@ -288,6 +301,7 @@ h1 {
 }
 .collection a, .movieBrowser a, .darkKitchen a, .projectPlanner a {
   font-size: 10px;
+  text-decoration: underline;
 }
 .collection .videoDiv, .movieBrowser .videoDiv, .darkKitchen .videoDiv, .projectPlanner .videoDiv {
   display: flex;
@@ -337,7 +351,8 @@ h1 {
   .collection, .movieBrowser, .darkKitchen, .projectPlanner {
     display: flex;
     flex-direction: column;
-    place-items: center;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
   }
   .collection span, .movieBrowser span, .darkKitchen span, .projectPlanner span {
@@ -357,6 +372,7 @@ h1 {
   }
   .collection a, .movieBrowser a, .darkKitchen a, .projectPlanner a {
     font-size: 20px;
+    text-decoration: underline;
   }
   .collection .videoDiv, .movieBrowser .videoDiv, .darkKitchen .videoDiv, .projectPlanner .videoDiv {
     display: flex;

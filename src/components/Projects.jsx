@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import '../style/styles.css';
+import { useEffect } from 'react';
 
 export const Projects = () => {
 
