@@ -10,6 +10,7 @@ import { Footer } from './components/Footer'
 import { Route, Routes } from 'react-router-dom'
 import { Projects } from './components/Projects'
 import { ScrollToTop } from './components/ScrollToTop'
+import { SuperCapsule } from './components/SuperCapsule'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/ProjectPlanner' element={<ProjectPlanner />} />
         <Route path='/Projects' element={<Projects />} />
         <Route path='/AboutMe' element={<AboutMe />} />
+        <Route path='/SuperCapsule' element={<SuperCapsule />} />
       </Routes> 
       <Footer />
     </div>

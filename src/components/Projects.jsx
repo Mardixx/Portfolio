@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import '../style/styles.css';
-import { useEffect } from 'react';
 
 export const Projects = () => {
 
@@ -38,6 +37,13 @@ export const Projects = () => {
                 <Link to='/ProjectPlanner' className="projectPlannerLink">
                     <motion.div initial={{ x : -200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="projectPlanner">
                         <img src="projectPlanner.png" alt="Project Planner png" />
+                    </motion.div>
+                </Link>
+            </div>
+            <div className="project">
+                <Link to='/SuperCapsule' className="superCapsuleLink">
+                    <motion.div initial={{ x : -200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="superCapsule">
+                        <img src="HomeScreenSuperCapsule.png" alt="Super Capsule png" />
                     </motion.div>
                 </Link>
             </div>

@@ -123,6 +123,29 @@ h1 {
   width: 91%;
 }
 
+.superCapsule {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+}
+.superCapsule .videoCollection {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+.superCapsule video {
+  width: 90%;
+}
+.superCapsule img {
+  width: 90vw;
+}
+.superCapsule span {
+  width: 91%;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -248,7 +271,7 @@ h1 {
   gap: 7rem;
   margin-bottom: 5rem;
 }
-.projects .collectionProjectLink, .projects .movieBrowserLink, .projects .darkKitchenLink, .projects .projectPlannerLink {
+.projects .collectionProjectLink, .projects .movieBrowserLink, .projects .darkKitchenLink, .projects .projectPlannerLink, .projects .superCapsuleLink {
   border-radius: 5px;
   width: 80%;
   box-shadow: 10px 10px 10px 1px #0e1734;
@@ -260,15 +283,15 @@ h1 {
   gap: 1rem;
   background-color: rgb(73, 69, 69);
 }
-.projects .collectionProjectLink img, .projects .movieBrowserLink img, .projects .darkKitchenLink img, .projects .projectPlannerLink img {
+.projects .collectionProjectLink img, .projects .movieBrowserLink img, .projects .darkKitchenLink img, .projects .projectPlannerLink img, .projects .superCapsuleLink img {
   border-radius: 5px 5px 0px 0px;
   width: 100%;
 }
-.projects .collectionProjectLink .littleDetail, .projects .movieBrowserLink .littleDetail, .projects .darkKitchenLink .littleDetail, .projects .projectPlannerLink .littleDetail {
+.projects .collectionProjectLink .littleDetail, .projects .movieBrowserLink .littleDetail, .projects .darkKitchenLink .littleDetail, .projects .projectPlannerLink .littleDetail, .projects .superCapsuleLink .littleDetail {
   display: block;
   width: 90%;
 }
-.projects .collectionProjectLink .languagesUsed, .projects .movieBrowserLink .languagesUsed, .projects .darkKitchenLink .languagesUsed, .projects .projectPlannerLink .languagesUsed {
+.projects .collectionProjectLink .languagesUsed, .projects .movieBrowserLink .languagesUsed, .projects .darkKitchenLink .languagesUsed, .projects .projectPlannerLink .languagesUsed, .projects .superCapsuleLink .languagesUsed {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -276,34 +299,34 @@ h1 {
   padding: 1rem;
   gap: 7px;
 }
-.projects .collectionProjectLink .languagesUsed img, .projects .movieBrowserLink .languagesUsed img, .projects .darkKitchenLink .languagesUsed img, .projects .projectPlannerLink .languagesUsed img {
+.projects .collectionProjectLink .languagesUsed img, .projects .movieBrowserLink .languagesUsed img, .projects .darkKitchenLink .languagesUsed img, .projects .projectPlannerLink .languagesUsed img, .projects .superCapsuleLink .languagesUsed img {
   width: 30px;
 }
 
-.collection, .movieBrowser, .darkKitchen, .projectPlanner {
+.collection, .movieBrowser, .darkKitchen, .projectPlanner, .superCapsule {
   display: flex;
   flex-direction: column;
   place-items: center;
   gap: 1rem;
   margin-bottom: 2rem;
 }
-.collection span, .movieBrowser span, .darkKitchen span, .projectPlanner span {
+.collection span, .movieBrowser span, .darkKitchen span, .projectPlanner span, .superCapsule span {
   font-size: 15px;
 }
-.collection h1, .movieBrowser h1, .darkKitchen h1, .projectPlanner h1 {
+.collection h1, .movieBrowser h1, .darkKitchen h1, .projectPlanner h1, .superCapsule h1 {
   font-size: 25px;
 }
-.collection video, .movieBrowser video, .darkKitchen video, .projectPlanner video {
+.collection video, .movieBrowser video, .darkKitchen video, .projectPlanner video, .superCapsule video {
   width: 90%;
 }
-.collection img, .movieBrowser img, .darkKitchen img, .projectPlanner img {
+.collection img, .movieBrowser img, .darkKitchen img, .projectPlanner img, .superCapsule img {
   width: 90%;
 }
-.collection a, .movieBrowser a, .darkKitchen a, .projectPlanner a {
+.collection a, .movieBrowser a, .darkKitchen a, .projectPlanner a, .superCapsule a {
   font-size: 10px;
   text-decoration: underline;
 }
-.collection .videoDiv, .movieBrowser .videoDiv, .darkKitchen .videoDiv, .projectPlanner .videoDiv {
+.collection .videoDiv, .movieBrowser .videoDiv, .darkKitchen .videoDiv, .projectPlanner .videoDiv, .superCapsule .videoDiv {
   display: flex;
   flex-direction: column;
   place-items: center;
