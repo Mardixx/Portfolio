@@ -11,7 +11,7 @@ export const SuperCapsule = () => {
             <motion.div whileHover={{ scale : 1.05 }}><img src="Level1.png" alt="Level 1 png" /></motion.div>
             <motion.div whileHover={{ scale : 1.05 }}><img src="Level2.png" alt="Level 2 png" /></motion.div>
 
-            <a href="https://github.com/Mardixx/superCapsule">Link to download the game from GitHub --Windows only--</a>
+            <a href="https://github.com/Mardixx/superCapsule" target='blank'>Link to download the game from GitHub --Windows only--</a>
         </div>
     )
 }
