@@ -47,6 +47,9 @@ export const Home = () => {
                 <FramerMagnetic>
                     <a href="https://git-scm.com/" target='blank'><img className='git' src='git.png' alt='Git png'/></a>
                 </FramerMagnetic>
+                <FramerMagnetic>
+                    <a href="https://angular.io" target='blank'><img className='angular' src='angular.avif' alt='Angular avif'/></a>
+                </FramerMagnetic>
             </motion.div>
 
             <h3>Some of my projects: </h3>

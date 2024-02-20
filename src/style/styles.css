@@ -362,6 +362,9 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) {
+  .App {
+    width: 100%;
+  }
   .home h1 {
     font-size: 50px;
   }
@@ -407,10 +410,8 @@ h1 {
   .languages {
     display: flex;
     overflow: visible;
-    margin: 0 auto;
-    width: 80%;
-    padding: 2rem;
-    gap: 2rem;
+    width: 90%;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -497,7 +498,6 @@ h1 {
   .projectDisplay .project {
     box-shadow: 5px 5px 5px 5px #0e1734;
     width: 45%;
-    height: 35vh;
     display: flex;
     justify-content: center;
     align-items: center;
