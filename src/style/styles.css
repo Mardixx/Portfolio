@@ -525,4 +525,43 @@ h1 {
     justify-content: center;
     align-items: center;
   }
+  .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7rem;
+    margin-bottom: 5rem;
+  }
+  .projects .collectionProjectLink, .projects .movieBrowserLink, .projects .darkKitchenLink, .projects .projectPlannerLink, .projects .superCapsuleLink, .projects .angularTutorialLink {
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 10px 10px 10px 1px #0e1734;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 1rem;
+    background-color: rgb(73, 69, 69);
+  }
+  .projects .collectionProjectLink img, .projects .movieBrowserLink img, .projects .darkKitchenLink img, .projects .projectPlannerLink img, .projects .superCapsuleLink img, .projects .angularTutorialLink img {
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+  }
+  .projects .collectionProjectLink .littleDetail, .projects .movieBrowserLink .littleDetail, .projects .darkKitchenLink .littleDetail, .projects .projectPlannerLink .littleDetail, .projects .superCapsuleLink .littleDetail, .projects .angularTutorialLink .littleDetail {
+    display: block;
+    width: 90%;
+  }
+  .projects .collectionProjectLink .languagesUsed, .projects .movieBrowserLink .languagesUsed, .projects .darkKitchenLink .languagesUsed, .projects .projectPlannerLink .languagesUsed, .projects .superCapsuleLink .languagesUsed, .projects .angularTutorialLink .languagesUsed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 7px;
+  }
+  .projects .collectionProjectLink .languagesUsed img, .projects .movieBrowserLink .languagesUsed img, .projects .darkKitchenLink .languagesUsed img, .projects .projectPlannerLink .languagesUsed img, .projects .superCapsuleLink .languagesUsed img, .projects .angularTutorialLink .languagesUsed img {
+    width: 50px;
+  }
 }/*# sourceMappingURL=styles.css.map */

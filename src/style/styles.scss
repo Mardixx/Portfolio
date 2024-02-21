@@ -497,4 +497,16 @@ h1 {
             align-items: center;
         }
     }
+    .projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 7rem;
+        margin-bottom: 5rem;
+    
+        .collectionProjectLink, .movieBrowserLink, .darkKitchenLink, .projectPlannerLink, .superCapsuleLink, .angularTutorialLink {
+            @include project;
+        }
+    }
 }
