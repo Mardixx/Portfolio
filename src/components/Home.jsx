@@ -129,6 +129,18 @@ export const Home = () => {
                         </div>
                     </motion.div>
                 </Link>
+                <Link to='/AngularTutorial' className="angularTutorialLink">
+                    <motion.div initial={{ x : -200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="angularTuto">
+                        <img src="HomeScreenSuperCapsule.png" alt="Angular Tutorial png" />
+                        <span className='littleDetail'>In this project, we had to create a project planner in which you could see the time remaining and the tasks in order of importance.</span>
+                        <div>
+                            <span>Languages Used: </span><br />
+                            <div className="languagesUsed">
+                                <img className='angular' src='angular.avif' alt='Angular svg'/>
+                            </div>
+                        </div>
+                    </motion.div>
+                </Link>
             </div>
         </motion.div>
     )
