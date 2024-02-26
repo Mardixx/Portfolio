@@ -42,8 +42,15 @@ export const Projects = () => {
             </div>
             <div className="project">
                 <Link to='/SuperCapsule' className="superCapsuleLink">
-                    <motion.div initial={{ x : -200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="superCapsule">
+                    <motion.div initial={{ x : 200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="superCapsule">
                         <img src="HomeScreenSuperCapsule.png" alt="Super Capsule png" />
+                    </motion.div>
+                </Link>
+            </div>
+            <div className="project">
+                <Link to='/AngularTutorial' className="angularTutorialLink">
+                    <motion.div initial={{ x : -200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="angularTutorial">
+                        <img src="wishlist.PNG" alt="Wish List png" />
                     </motion.div>
                 </Link>
             </div>
