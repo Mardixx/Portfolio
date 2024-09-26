@@ -120,7 +120,7 @@ export const Home = () => {
                 <Link to='/SuperCapsule' className="superCapsuleLink">
                     <motion.div initial={{ x : -200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="superCapsule">
                         <img src="HomeScreenSuperCapsule.png" alt="Super Capsule png" />
-                        <span className='littleDetail'>In this project, we had to create a project planner in which you could see the time remaining and the tasks in order of importance.</span>
+                        <span className='littleDetail'>In this project, I gave myself the challenge to create a basic platformer.</span>
                         <div>
                             <span>Languages Used: </span><br />
                             <div className="languagesUsed">
@@ -132,7 +132,7 @@ export const Home = () => {
                 <Link to='/AngularTutorial' className="angularTutorialLink">
                     <motion.div initial={{ x : -200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="angularTuto">
                         <img src="skill.PNG" alt="Skill png" />
-                        <span className='littleDetail'>In this project, we had to create a project planner in which you could see the time remaining and the tasks in order of importance.</span>
+                        <span className='littleDetail'>In this project, I used angular for the first time to create a basic math calculator.</span>
                         <div>
                             <span>Languages Used: </span><br />
                             <div className="languagesUsed">
