@@ -1,4 +1,8 @@
 *, body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
   box-sizing: border-box;
   width: 100%;
 }
@@ -236,6 +240,11 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
   width: 95%;
+}
+.header ul a {
+  display: flex;
+  height: 50px;
+  margin: 10px;
 }
 .header ul li {
   list-style-type: none;

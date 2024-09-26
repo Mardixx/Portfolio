@@ -18,7 +18,7 @@ export const ProjectPlanner = () => {
                 </video>
                 <span>In this short video, you can see how to add a project, tasks and how much time you have left.</span>
             </div>
-            <a href="https://okly2023.github.io/Project_Planner/" target='blank'>Deployed project if you want to try for yourself.</a>
+            <a href="https://project-planner-orpin.vercel.app/" target='blank'>Deployed project if you want to try for yourself.</a>
         </div>
     )
 }
