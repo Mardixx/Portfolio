@@ -12,7 +12,7 @@ export const Home = () => {
                 <span>Here you will be able to find my most advanced projects and the ones I learned the most on. Hope you enjoy!</span>
             </div>
 
-            <h3>Languages I learned and use almost daily: </h3>
+            <h3>Languages I learned: </h3>
 
             <motion.div className="languages">
                 <FramerMagnetic>
@@ -50,12 +50,28 @@ export const Home = () => {
                 <FramerMagnetic>
                     <a href="https://angular.io" target='blank'><img className='angular' src='angular.avif' alt='Angular avif'/></a>
                 </FramerMagnetic>
+                <FramerMagnetic>
+                    <a href="https://www.java.com" target='blank'><img className='java' src='java.webp' alt='Java png'/></a>
+                </FramerMagnetic>
             </motion.div>
 
             <h3>Some of my projects: </h3>
 
             <div className="projects">
                 
+                <Link to='/AngularJavaAPIProject' className="angularTutorialLink">
+                    <motion.div initial={{ x : -200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="angularTuto">
+                        <img src="angularJavaCollection.png" alt="Angular and Java collection png" />
+                        <span className='littleDetail'>In this project, I used angular and Java to create an API and interact with it to create cards.</span>
+                        <div>
+                            <span>Languages Used: </span><br />
+                            <div className="languagesUsed">
+                                <img className='angular' src='angular.avif' alt='Angular svg'/>
+                                <img className='java' src='java.webp' alt='Java svg'/>
+                            </div>
+                        </div>
+                    </motion.div>
+                </Link>
                 <Link to='/CollectionProject' className="collectionProjectLink">
                     <motion.div 
                         initial={{ x : 200, opacity : 0 }} 
@@ -125,18 +141,6 @@ export const Home = () => {
                             <span>Languages Used: </span><br />
                             <div className="languagesUsed">
                                 <img className='csharp' src='cSharp.png' alt='C# svg'/>
-                            </div>
-                        </div>
-                    </motion.div>
-                </Link>
-                <Link to='/AngularTutorial' className="angularTutorialLink">
-                    <motion.div initial={{ x : -200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="angularTuto">
-                        <img src="skill.PNG" alt="Skill png" />
-                        <span className='littleDetail'>In this project, I used angular for the first time to create a basic math calculator.</span>
-                        <div>
-                            <span>Languages Used: </span><br />
-                            <div className="languagesUsed">
-                                <img className='angular' src='angular.avif' alt='Angular svg'/>
                             </div>
                         </div>
                     </motion.div>
