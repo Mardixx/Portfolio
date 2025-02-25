@@ -8,6 +8,13 @@ export const Projects = () => {
         <div className="projectDisplay">
             <h1>Projects: </h1>
             <div className="project">
+                <Link to='/AngularJavaAPIProject' className="angularTutorialLink">
+                    <motion.div initial={{ x : -200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="angularJavaCollection">
+                        <img src="angularJavaCollection.png" alt="Wish List png" />
+                    </motion.div>
+                </Link>
+            </div>
+            <div className="project">
                 <Link to='/CollectionProject' className="collectionProjectLink">
                     <motion.div 
                         initial={{ x : 200, opacity : 0 }} 
@@ -44,13 +51,6 @@ export const Projects = () => {
                 <Link to='/SuperCapsule' className="superCapsuleLink">
                     <motion.div initial={{ x : 200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="superCapsule">
                         <img src="HomeScreenSuperCapsule.png" alt="Super Capsule png" />
-                    </motion.div>
-                </Link>
-            </div>
-            <div className="project">
-                <Link to='/AngularTutorial' className="angularTutorialLink">
-                    <motion.div initial={{ x : -200, opacity : 0 }} whileInView={{ x : 0, opacity : 1 }} transition={{ duration : 0.9, type : 'spring' }} className="angularTutorial">
-                        <img src="wishlist.PNG" alt="Wish List png" />
                     </motion.div>
                 </Link>
             </div>
